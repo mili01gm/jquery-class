@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1024px;
+    margin: 0;
+}
+
+header {
+    text-align: right;
+    padding: 10px 0;
+}
+
+.brand-popup {
+    position: absolute;
+    top: 25%;
+    left: calc(50% - 45vh);
+    display: none;
+    width: 90vh;
+    height: 60vh;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.brand-popup h3 {
+    font-family: sans-serif;
+    font-size: 2em;
+    margin-bottom: 30px;
+    padding: 40px 10px;
+}
+
+.brand-popup .popup-close {
+    position: absolute;
+    right: 7px;
+    font-size: 2em;
+}
